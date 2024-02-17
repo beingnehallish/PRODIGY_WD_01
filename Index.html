@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Landing Page</title>
+</head>
+<body>
+    <ul style="list-style-type: none;float:right;">
+        <a target="_blank" href="https://github.com/beingnehallish"><img class="img3" width="50px" height="50px"src="git.jpg"></a>
+        <a target="_blank" href="https://linkedin.com/in/nehal--gupta"><img class="img3" width="50px" height="50px"src="linkedin.jpg"></a></p>
+    </ul>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="ide.docx" download="IDE">IDEs</a><hr color="purple">
+  <a href="vc.docx" download="Version Control">Version Control</a><hr color="purple">
+  <a href="clt.docx" download="Command-Line Tools">Command-line Tools</a><hr color="purple">
+  <a href="wb.docx" download="Web Browers">Web Browers</a><hr color="purple">
+  <a href="dm.docx" download="Database Management">Database Management</a><hr color="purple">
+  <a href="te.docx" download="Text Editors">Text Editor</a><hr color="purple">
+  <a href="cc.docx" download="Communication and Collaboration">Communication and Collaboration</a><hr color="purple">
+  <a href="cv.docx" download="Containerization and Virtualization">Containerization and Virtualization</a><hr color="purple">
+  <a href="pm.docx" download="Package Managers">Package Managers</a><hr color="purple">
+  <a href="cr.docx" download="Code Review">Code Review</a><hr color="purple">
+  <a href="d.docx" download="Documentation">Documenation</a><hr color="purple">
+  <a href="st.docx" download="Security Tools">Security Tools</a><hr color="purple">
+</div>
+
+<div id="main">
+    <span style="font-size:30px;cursor:pointer; font-style:bold;" onclick="openNav()">&#9776; </span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+<div class="container">
+    <video width="100%" height="100%" max-width="100%" autoplay loop muted>
+        <source src="bg3.mp4" type="video/mp4">
+        <source src="bg3.webm" type="video/webm">
+        <source src="bg3.ogg" type="video/ogg">
+        </video>
+    
+<form class="centered">
+    <h2>User Login</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+</form> 
+</div>
+<div class="container">
+    <img width="100%" height="100%" max-width="100%"src="bg5.jpg">
+</div>
+<footer>
+    <div class="b" ><br>
+    <h3 style="color:white;">LINKS THAT MAY INTEREST YOU</h3>
+    <section style="color:gray; padding:20px">
+        <h4>Haven't made a LinkedIn profile yet? Do it now!</h4>
+        <a target="_blank"  href="https://www.linkedin.com/signup"><img width="70" height="70" style="border-radius:50px ;" src="linkedin.jpg"></a>
+    </section>
+    <hr color="gray">
+    <section style="color:gray;padding:20px;">
+        <h4>GitHub confuses you? Here's a tutorial!</h4>
+        <a target="_blank"  href="https://docs.github.com/en/get-started"><img width="70" height="70" style="border-radius:50px ;" src="git.jpg"></a>
+    </section>
+    <hr color="gray">
+    <section style="color:gray;padding:20px">
+        <h4>Unable to set up VS Code?</h4>
+        <a target="_blank"  href="https://code.visualstudio.com/learn/get-started/basics"><img width="70" height="70" style="border-radius:50px ;" src="vs.png"></a>
+    </section>
+    <hr color="gray"><hr color="gray">
+    <div style="text-align:center; font-family:Georgia, 'Times New Roman', Times, serif">
+     <strong style="color: aliceblue;"><br>
+         © Nehal Gupta - All Rights Reserved
+     </strong><br>
+    </div>
+</footer>
+</body>
+</html> 
+
