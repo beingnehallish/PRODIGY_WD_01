@@ -1,6 +1,6 @@
 # PRODIGY_WD_01
 
-#Responsive Landing Page
+# Responsive Landing Page
 
 
 ## Overview
