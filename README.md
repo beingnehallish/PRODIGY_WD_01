@@ -7,8 +7,7 @@
 -  [About](#about)
 -  [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Setup](#setup)
-- [License](#license)
+
 
 ## About
 
@@ -26,21 +25,6 @@ This landing page is for the purpose of providing downloadable PDFs containing n
 
 HTML5, CSS, JS
 
-### Setup
-Clone the repository:
-1. Clone the repository:
 
-```bash
-git clone https://github.com/beingnehallish/PRODIGY_WD_04.git
-cd your-CODSOFT/Task-2-Landing-Page
-```
-2. Open `Index.html` in your web browser to view the website locally.
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your own portfolio.
-
----
 
 Thank you for visiting my Landing Page! If you have any questions or would like to get in touch, feel free to use the contact form on the website.
